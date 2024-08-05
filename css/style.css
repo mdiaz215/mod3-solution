@@ -1,0 +1,106 @@
+body {
+  background-color: #F7E4A5;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
+  font-family: "Playwrite BE VLG", cursive;
+  color: #5D553E;
+}
+
+div {
+    background-color: #FEFCF4;
+}
+
+p {
+  margin-right: auto;
+  margin-left: 10px;
+  color: #5D553E;
+  font-family: "Nunito", sans-serif;
+}
+
+p.title {
+  border-style: solid;
+  border-color: #5D553E;
+  border-width: 0px 0px 2px 2px;
+  min-width: 100px;
+  top: 0px;
+  float: right;
+  margin: 0px;
+  text-align: center;
+  font-size: 125%;
+  padding: 2px 10px;
+}
+
+p.chicken {
+  background-color: #A5F7BB;
+}
+
+p.beef {
+  background-color: #A5B8F7;
+}
+
+p.sushi {
+  background-color: #F7A5e1;
+}
+
+div#content {
+  margin-top: 50px;
+  padding: 0px 5px 0px 5px;
+}
+
+
+/********** Desktop only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    overflow: auto;
+    width: 32%;
+    max-height: 18em;
+    border: 2px solid #5D553E;
+    box-sizing: border-box;
+  }
+}
+
+/********** Tablet only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    overflow: auto;
+    width: 48%;
+    max-height: 18em;
+    border: 2px solid #5D553E;
+    box-sizing: border-box;
+  }
+  .col-md-12 {
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    overflow: auto;
+    width: 97%;
+    max-height: 18em;
+    border: 2px solid #5D553E;
+    box-sizing: border-box;
+  }
+}
+
+/********** Mobile only **********/
+@media (max-width: 767px) {
+  .col-sm-6 {
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    overflow: auto;
+    width: 90%;
+    border: 2px solid #5D553E;
+    box-sizing: border-box;
+    clear: left;
+  }
+}
