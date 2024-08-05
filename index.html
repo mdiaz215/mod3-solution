@@ -1,40 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Module 2 Solution</title>
-<link rel="stylesheet" href="css/style.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
-</head>
-<body>
-<h1>Our Menu</h1>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Walter+Turncoat&display=swap" rel="stylesheet">
+  </head>
+  <body>
 
-<div class="main">
-  <div class="col-lg-4 col-md-6 col-sm-6">
-      <p class="title chicken">Chicken</p>
-      <div id="content">
-        <p>In English, it's chicken, in Spanish, pollo, in French, poulet, in German, Huhn, in Italian, pollo, in Portuguese, frango, in Dutch, kip, in Russian, kuritsa, in Chinese Mandarin, ji, in Japanese, tori, in Korean, dak, in Arabic, dajaj, in Hebrew, of, in Greek, kotopoulo, in Turkish, tavuk, in Hindi, murgee, in Bengali, murghi, in Punjabi, kukkar, in Urdu, murghi, in Swahili, kuku, in Zulu, inkukhu, in Afrikaans, hoender, in Malay, ayam, in Indonesian, ayam, in Filipino, manok.</p>
-      </div>
-  </div>
-  <div class="col-lg-4 col-md-6 col-sm-6">
-    <p class="title beef">Beef</p>
-    <div id="content">
-      <p>In English, it's beef, in Spanish, carne de res, in French, boeuf, in German, Rindfleisch, in Italian, manzo, in Portuguese, carne de vaca, in Dutch, rundvlees, in Russian, govyadina, in Chinese Mandarin, niurou, in Japanese, gyuniku, in Korean, soegogi, in Arabic, lahm baqar, in Hebrew, basar bakar, in Greek, moschari, in Turkish, sığır eti, in Hindi, gaay ka maans, in Bengali, gorur mangsho, in Punjabi, gaaye da maas, in Urdu, gaaye ka gosht, in Swahili, nyama ya ng'ombe.</p>
+<!-- Header -->
+<header>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Food, LLC</a>
+    <button class="navbar-toggler d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse row no-gutter" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item d-sm-none">
+          <a class="nav-link" aria-current="page" href="#item-chicken">Chicken</a>
+        </li>
+        <li class="nav-item d-sm-none">
+          <a class="nav-link" href="#">Beef</a>
+        </li>
+        <li class="nav-item d-sm-none">
+          <a class="nav-link" href="#">Sushi</a>
+        </li>
+      </ul>
     </div>
   </div>
-  <div class="col-lg-4 col-md-12 col-sm-6">
-    <p class="title sushi">Sushi</p>
-    <div id="content">
-      <p>In English, it's sushi, in Spanish, sushi, in French, sushi, in German, Sushi, in Italian, sushi, in Portuguese, sushi, in Dutch, sushi, in Russian, sushi, in Chinese Mandarin, sushi, in Japanese, sushi, in Korean, chobap, in Arabic, sushi, in Hebrew, sushi, in Greek, sousi, in Turkish, suşi, in Hindi, sushi, in Bengali, sushi, in Punjabi, sushi, in Urdu, sushi, in Swahili, sushi, in Zulu, sushi, in Afrikaans, sushi, in Malay, sushi, in Indonesian, sushi, in Filipino, sushi.</p>
+</nav>
+</header>
+<!-- End Header -->
+
+<div id="main-content" class="container-fluid">
+  <h1 class="text-center">Our Menu</h1>
+
+  <div id="menu-content" class="container-fluid">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <h2 id="item-chicken" class="text-center">Chicken</h2>
+      <p>In English, it is Chicken. In Spanish, it is Pollo. In French, it is Poulet. In German, it is Huhn. In Italian, it is Pollo. In Portuguese, it is Frango. In Dutch, it is Kip. In Russian, it is Kuritsa. In Chinese (Mandarin), it is Ji. In Japanese, it is Niwatori. In Korean, it is Dak. In Arabic, it is Dajaj. In Hebrew, it is Of. In Turkish, it is Tavuk. In Greek, it is Kotopoulo. In Hungarian, it is Csirke. In Polish, it is Kurczak. In Czech, it is Kure. In Slovak, it is Kura. In Bulgarian, it is Pile. In Serbian, it is Pile. In Croatian, it is Piletina. In Bosnian, it is Piletina. In Slovenian, it is Pishchanets. In Romanian, it is Pui. In Swedish, it is Kyckling. In Norwegian, it is Kylling. In Danish, it is Kylling. In Finnish, it is Kana. In Icelandic, it is Kjuklingur. In Estonian, it is Kana. In Latvian, it is Vistas gala. In Lithuanian, it is Vistiena. In Vietnamese, it is Ga. In Thai, it is Kai. In Filipino, it is Manok. In Malay, it is Ayam. In Indonesian, it is Ayam. In Hindi, it is Murga. In Bengali, it is Murgi. In Urdu, it is Murghi. In Tamil, it is Kozhi. In Telugu, it is Kodi. In Kannada, it is Koli. In Malayalam, it is Kozhi. In Sinhala, it is Kukula. In Nepali, it is Kukhura. In Marathi, it is Kombadi. In Gujarati, it is Kukdi. In Punjabi, it is Kukkad.</p>
+      <p>Chicken is yummy, Pollo es delicioso, Poulet est delicieux, Huhnchen ist lecker, Kip is lekker, Kurczak jest pyszny, Kylling er laekker, Kyckling ar gott, Kotopoulo einai nostimo, Kuritsa vkusnaya, Csirke finom, Ayam enak, Kanaa on herkullista, Tavuk lezzetlidir, Jollof riis on maitsev, Kuku ni tamu, Kuritsa vkusnaya, Kylling er laekker, Kuku ni tamu, Morgh khoshmaze ast, Ji rou hen hao chi, Dalgogi ga massitda, Kai aroi, Ga ngon, and Piletina je ukusna.</p>
+      <p>Chicken is healthy, Pollo es saludable, Poulet est sain, Huhnchen ist gesund, Kip is gezond, Kurczak jest zdrowy, Kylling er sund, Kyckling ar nyttig, Kotopoulo einai ygieines, Kuritsa zdorovaya, Csirke egeszseges, Ayam sehat, Kanaa on terveellista, Tavuk sagliklidir, Jollof riis on tervislik, Kuku ni afya, Kuritsa zdorovaya, Kylling er sund, Kuku ni afya, Morgh salem ast, Ji rou hen jiankang, Dalgogi ga geonganghanda, Kai mii sukhaphap, Ga khoe manh, and Piletina je zdrava.</p>
     </div>
   </div>
 </div>
 
-</body>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>

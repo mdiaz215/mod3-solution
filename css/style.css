@@ -1,106 +1,68 @@
 body {
-  background-color: #F7E4A5;
-  margin: 0 auto;
+  background-color: #e2e4fe;
+  font-family: "Walter Turncoat", cursive;
 }
 
-h1 {
-  margin-bottom: 15px;
+.navbar {
+  background-color: #8993fa;
+  color: #22253e;
+  font-family: "Walter Turncoat", cursive;
+}
+
+a.navbar-brand {
+  font-size: 2em;
+  margin-left: 15px;
+}
+
+button.navbar-toggler {
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.navbar-collapse.show, .navbar-collapse.collapsing {
   text-align: center;
-  font-size: 175%;
-  font-family: "Playwrite BE VLG", cursive;
-  color: #5D553E;
+  transition: height 0s ease;
 }
 
-div {
-    background-color: #FEFCF4;
-}
-
-p {
-  margin-right: auto;
-  margin-left: 10px;
-  color: #5D553E;
-  font-family: "Nunito", sans-serif;
-}
-
-p.title {
-  border-style: solid;
-  border-color: #5D553E;
-  border-width: 0px 0px 2px 2px;
-  min-width: 100px;
-  top: 0px;
-  float: right;
-  margin: 0px;
+a.nav-link {
+  background-color: rgba(226,228,254,.4);
+  width: 100vw;
+  margin: 5px auto 5px;
   text-align: center;
-  font-size: 125%;
-  padding: 2px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #22253e;
+  font-size: 1.2em;
 }
 
-p.chicken {
-  background-color: #A5F7BB;
+a.nav-link:hover {
+  background-color: rgba(226,228,254,.7);
 }
 
-p.beef {
-  background-color: #A5B8F7;
+a.nav-link:active {
+  background-color: #b5bcfc;
 }
 
-p.sushi {
-  background-color: #F7A5e1;
+#menu-content {
+  background-color: rgba(187,103,110,.2);
+  padding-top: 5px;
+  margin: auto;
+  min-height: 1000px;
 }
 
-div#content {
-  margin-top: 50px;
-  padding: 0px 5px 0px 5px;
+#menu-content h2 {
+  font-size: 1.2em;
 }
+#menu-content p {
+  font-family: "Barlow";
+}
+
 
 
 /********** Desktop only **********/
-@media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    margin-left: 1%;
-    margin-bottom: 1%;
-    overflow: auto;
-    width: 32%;
-    max-height: 18em;
-    border: 2px solid #5D553E;
-    box-sizing: border-box;
-  }
-}
 
 /********** Tablet only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6 {
-    float: left;
-    margin-left: 1%;
-    margin-bottom: 1%;
-    overflow: auto;
-    width: 48%;
-    max-height: 18em;
-    border: 2px solid #5D553E;
-    box-sizing: border-box;
-  }
-  .col-md-12 {
-    float: left;
-    margin-right: 1%;
-    margin-left: 1%;
-    overflow: auto;
-    width: 97%;
-    max-height: 18em;
-    border: 2px solid #5D553E;
-    box-sizing: border-box;
-  }
-}
 
-/********** Mobile only **********/
-@media (max-width: 767px) {
-  .col-sm-6 {
-    float: left;
-    margin-left: 5%;
-    margin-bottom: 3%;
-    overflow: auto;
-    width: 90%;
-    border: 2px solid #5D553E;
-    box-sizing: border-box;
-    clear: left;
-  }
-}
+
+/********** XS Mobile only **********/
+
